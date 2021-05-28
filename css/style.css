@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #363535; }
+
+body {
+  background-color: #ededed; }
+
+nav {
+  background-color: #a47c56;
+  padding-left: 2rem;
+  text-decoration: none; }
+  nav header nav .flexMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 10px 40px 10px 40px 40px;
+    font-size: 1.2rem; }
+  nav .flexMenu li a {
+    color: white;
+    padding: 20px; }
+  nav .flexMenu li a:hover {
+    background-color: white;
+    color: #804900;
+    padding: 20px; }
+  nav header h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center; }
+
+.container {
+  margin: 0%; }
+  .container .main__section .section__features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem; }
+    .container .main__section .section__features .features__title {
+      min-width: 100%;
+      text-align: center;
+      margin-bottom: 0.4rem;
+      color: #1f160f;
+      margin-top: 4rem; }
+    .container .main__section .section__features .feature {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .container .main__section .section__features .feature .feature__text {
+        padding: 0.4rem; }
+      .container .main__section .section__features .feature .feature__parrafo {
+        font-size: 0.6rem;
+        text-align: center; }
+      .container .main__section .section__features .feature input {
+        margin: 5px;
+        padding: 6px 8px 6px 8px;
+        background-color: #d8d4d0;
+        border-radius: 8px;
+        font-size: 0.875rem;
+        margin-bottom: 1rem; }
+  .container .main__proyect .proyect__title {
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 0.4rem;
+    color: #1f160f; }
+  .container .main__proyect .carrusel__todo {
+    margin-top: 3rem; }
+    .container .main__proyect .carrusel__todo .carrusel__img {
+      text-align: center; }
+  .container .main__nosotros .nosotros__title {
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 0.4rem;
+    color: #1f160f;
+    margin-top: 2rem; }
+  .container .main__nosotros .nosotros__text {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+
+.Seccion2 {
+  background-image: url(../img2/fondo4.jpg);
+  width: 100%;
+  padding-bottom: 15rem; }
+  .Seccion2 h1 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+    color: #d8d4d0;
+    padding: 17rem 1rem 2rem 1rem; }
+    .Seccion2 h1 .animacion {
+      animation-duration: 5s;
+      animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .Seccion2 .subtitulo {
+    text-align: center;
+    letter-spacing: 1rem;
+    color: #d8d4d0;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 3rem; }
+
+footer {
+  background-color: #363535;
+  padding-top: 2rem; }
+  footer h2 {
+    font-size: 0.875rem;
+    color: #d8d4d0; }
+  footer p {
+    font-size: 0.6rem;
+    color: #d8d4d0; }
+
+.proyectos__main .proyectos {
+  font-weight: 800;
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  color: #1f160f;
+  padding: 2.5rem 1rem 2rem 1rem; }
+
+.proyectos__main .proyectos__diferentes {
+  font-weight: 600;
+  text-align: center;
+  font-size: normal;
+  color: #1f160f;
+  padding-top: 2.5rem; }
+
+.servicios__main .servicios {
+  font-weight: 800;
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  color: #1f160f;
+
+  padding: 2.5rem 1rem 2rem 1rem; }
+  .servicios__nombre{
+    font-weight: 600;
+  text-align: center;
+  font-size: 1rem;
+  color: #1f160f;
+
+  }
+
+.servicios__main .servicios__diferentes {
+  font-weight: 400;
+  text-align: center;
+  font-size: normal;
+  color: #1f160f;
+  padding-top: 2.5rem; }
+ 
+.servicios__dos{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.formulario{
+  margin: 1rem 15rem 2rem 15rem;
+}

@@ -1,0 +1,34 @@
+$blue:          hsl(216, 94%, 51%);
+$blue-light:    hsl(216, 94%, 71%);
+$blue-dark:     hsl(216, 94%, 31%);
+$orange:        hsl(29, 31%, 49%);
+$orange-light:  hsl(30, 9%, 83%);
+$orange-dark:   hsl(28, 36%, 9%);
+$black:         hsl(0, 1%, 21%);
+$white:         hsl(30, 34%, 84%);
+$background:    hsl(0, 0%, 93%);
+
+$f-family: 'Poppins', sans-serif;
+$f-xsmall: .6rem;
+$f-small: 0.875rem;
+$f-large: 2.5rem;
+$f-normal: normal;
+$f-semibold: bold;
+
+$spacing: 1rem;
+$spacing-lg: 2rem;
+$spacing-sm: .4rem;
+
+$full-height: 100vh;
+$full-width: 100%;
+
+$container-xs: 100%;
+$container-sm: 540px;
+$container-md: 720px;
+$container-lg: 960px;
+$container-xl: 1140px;
+$container-xxl: 1320px;
+
+$border: 1px solid #ddd;
+
+$transition: all .4s ease-in;

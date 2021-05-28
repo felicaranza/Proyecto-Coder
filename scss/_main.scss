@@ -1,0 +1,137 @@
+
+.container{
+    margin: 0%;
+    .main__section {
+        .section__features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: $spacing-lg;
+            margin-bottom: $spacing-lg;
+            .features__title {
+                min-width: $full-width;
+                text-align: center;
+                margin-bottom: $spacing-sm;
+                color: $orange-dark;
+                margin-top: 4rem;
+            }
+            .feature {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .feature__text {
+                    padding: $spacing-sm;
+                }
+                .feature__parrafo{
+                    font-size: $f-xsmall;
+                    text-align: center;
+                }
+                input{
+                    margin: 5px;
+                    padding: 6px 8px 6px 8px;
+                    background-color: $orange-light;
+                    border-radius: 8px;
+                    font-size: $f-small;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+        
+    }
+    .main__proyect{
+        .proyect__title{
+            min-width: $full-width;
+            text-align: center;
+            margin-bottom: $spacing-sm;
+            color: $orange-dark;}
+            
+        .carrusel__todo{
+            margin-top: 3rem;
+            .carrusel__img{
+                text-align: center;
+
+            }
+        }
+    }
+    .main__nosotros{
+        .nosotros__title{
+            min-width: $full-width;
+            text-align: center;
+            margin-bottom: $spacing-sm;
+            color: $orange-dark;
+            margin-top: 2rem;
+        }
+        .nosotros__text{
+            text-align: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+    }
+}
+
+.Seccion2{
+    background-image: url(../img2/fondo4.jpg);
+    width: 100%;
+    padding-bottom: 15rem;
+    h1{
+        font-weight: 800;
+        text-align: center;
+        font-size: $f-large;
+        letter-spacing: 1rem;
+        color: $orange-light;
+        padding: 17rem 1rem 2rem 1rem;
+        .animacion{
+            animation-duration: 5s;
+            animation-name: aparecer;
+        }
+        @keyframes aparecer {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+        }
+    }
+    .subtitulo{
+        text-align: center;
+        letter-spacing: 1rem;
+        color: $orange-light;
+        font-weight: 500;
+        font-size: 1.5rem;
+        padding-bottom: 3rem;
+    }
+
+    
+}
+footer{
+    background-color: $black;
+    padding-top: 2rem;
+    h2{
+        font-size: $f-small;
+        color: $orange-light;
+    }
+    p{
+        font-size: $f-xsmall;
+        color: $orange-light;
+    }
+}
+
+.proyectos__main{
+    .proyectos{
+        font-weight: 800;
+        text-align: center;
+        font-size: $f-large;
+        letter-spacing: 1rem;
+        color: $orange-dark;
+        padding: 2.5rem 1rem 2rem 1rem;
+    }
+    .proyectos__diferentes{
+        font-weight: 600;
+        text-align: center;
+        font-size: $f-normal;
+        color: $orange-dark;
+        padding-top: 2.5rem;
+    }  
+}
+

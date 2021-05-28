@@ -1,0 +1,29 @@
+nav{
+    background-color: $orange;
+    padding-left: 2rem;
+    text-decoration: none;
+   header nav .flexMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 10px 40px 10px 40px 40px;
+    font-size: 1.2rem;
+  }
+  .flexMenu li a {
+    color: white;
+    padding: 20px;
+  }
+  .flexMenu li a:hover {
+    background-color: white;
+    color: rgb(128, 73, 0);
+    padding: 20px;
+  }
+
+  header h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
